@@ -1,7 +1,7 @@
 # _Pig Dice Game_
 
 # Author
-abdirahman mahat
+John Gatheru
 
 ## Description
 
@@ -24,7 +24,7 @@ _This web application allows two players to play a game of Pig Dice._
 * _Open web browser of choice_
 
 # link to live page
-https://abdirahman-mahat.github.io/pig-dice/
+
 
 
 ## Technologies Used
@@ -37,12 +37,9 @@ https://abdirahman-mahat.github.io/pig-dice/
 
 # support and contact details
 
-Contact the author at: abdirahmanmahat3@gmail.com
+Contact the author at: johngatheru18@gmail.com
 
 
 
 ### License
 
-*This software is licensed under the MIT license.*
-
-Copyright (c) 2018 **_pixels tech company_**
