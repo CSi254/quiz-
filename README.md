@@ -32,7 +32,7 @@ _This web application allows two players to play a game of Pig Dice._
 * _HTML_
 * _CSS_
 * _Bootstrap_
-* _JavaScript_
+* _JavaScript_ 
 * _jQuery_
 
 # support and contact details
