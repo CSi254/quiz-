@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script  src="https://code.jquery.com/jquery-3.3.1.js"   ></script>
+      <script src="js/scripts.js"></script>
+      <script>
+      function refreshPage(){
+          window.location.reload();
+      }
+      </script>
+      <style>
+      body{
+        background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+      	background-size: 400% 400% ;
+      	animation:  linear-gradient 10s ease infinite;
+      }
+      </style>
+
+    <title></title>
+
+  </head>
+  <body>
+  <center>
+  <h2 class="quizHeader">Take a Quiz!</h2>
+
+	<table style="width:583px">
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">1.What is HTML?</p>
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">HyperText Mark-uplanguage</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>hyper active Text</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Code work</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Best programing language</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">2.what is the other name of Javascript?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>java Mozila</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2">ECMAScript</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>ECMAScripts</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>Scripts java</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">3.How does one save a javascript document?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>.java</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3">.js</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>.javascript</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>.IDK</label>
+	    	</ul>
+		</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">4.Where do we insert javascript in our html?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label><body>
+
+	        </body>title</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4">Head</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>css</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label><style media="screen">
+
+	        </style>body</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	</table>
+<br/>
+  <div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+
+<!--show only wrong answers on submit-->
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+
+<!--show score upon submit-->
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+	</div>
+<div>
+  <button type="submit"  onClick="refreshPage()">Re-Try</button>
+</div>
+</div>
+</center>
+  </body>
+</html>

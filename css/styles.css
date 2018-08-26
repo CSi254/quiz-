@@ -1,0 +1,135 @@
+
+
+.quizHeader {
+  border: 1px black;
+  align-items: center;
+}
+
+p.question {
+  font-family: Arial, sans-serif;
+	  font-size:20px;
+  color: #2E2E2E;
+  margin-bottom:0px;
+  align-items: center;
+}
+
+h2.quizHeader {
+  font-family: Arial, sans-serif;
+  font-weight:normal;
+  font-size:25px;
+  line-height: 27px;
+  margin: 24px 0 12px 0;
+  padding: 0 0 4px 0;
+  border-bottom: 1px solid #a2a2a2
+
+}
+
+h2.quizScore{
+  font-family: Arial, sans-serif;
+  font-size:25px;
+  align-items: center;
+}
+
+div.quizAnswers{
+  font-family: Arial, sans-serif;
+  font-size:16px;
+  color: #424242;
+  padding: 4px 0 4px 0;
+  align-items: center;
+}
+
+label {
+  font-family: Arial, sans-serif;
+  font-size:14px;
+  color: #424242;
+  vertical-align:top;
+  align-items: center;
+}
+
+input.answer[type="radio"] {
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input.quizSubmit[type="submit"] {
+  -webkit-background-clip: border-box;
+  -webkit-background-origin: padding-box;
+  -webkit-background-size: auto;
+  -webkit-transition-delay: 0s, 0s;
+  -webkit-transition-duration: 0.2s, 0.2s;
+  -webkit-transition-property: color, background-color;
+  -webkit-transition-timing-function: ease, ease;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px 0px;
+  color: #ffffff;
+  background-color: #c30b0a;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  text-transform:uppercase;
+  height:36px;
+  width:85px;
+  border: 1px solid #5E5E5E;
+  border-radius:5px;
+  align-items: center;
+
+ }
+
+input.quizSubmit[type="submit"]:hover {
+  color: #ffffff;
+  background: #680f11;
+  text-decoration: none;
+  align-items: center;
+}
+
+table {
+  background-color: #F2F2F2;
+	  border:1px solid #BDBDBD;
+  border-radius:10px;
+  padding:200px;
+  padding-left:250px;
+  box-shadow: rgba(0, 0, 0, 0.498039) 10px 10px 10px 10px;
+  align-items: center;
+  height:360px;
+  width:850px;
+}
+
+th {
+  align-items: center;
+
+}
+
+tr {
+  align-items: center;
+
+}
+
+td {
+  align-items: center;
+
+}
+
+.submitter {
+	  width:85px;
+    align-items: center;
+}
+
+.hide {
+	  display:none;
+    align-items: center;
+}
+
+.idl {
+
+}
+ul{
+
+
+
+}
+.refresh{
+
+}
+
+}
+/*SFS light red = #c30b0a;
+SFS dark red = #9f2026; */
